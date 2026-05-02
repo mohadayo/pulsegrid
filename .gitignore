@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+venv/
+*.egg
+
+# Go
+/services/processor/processor
+
+# Node / TypeScript
+node_modules/
+services/dashboard/dist/
+
+# Environment
+.env
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# Test / Coverage
+.coverage
+htmlcov/
+coverage/
+.pytest_cache/
